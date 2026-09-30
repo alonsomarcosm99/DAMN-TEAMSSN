@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "repository": "AlonsoMarcosM/DAMN-TEAMSSN",
-  "repository_url": "https://github.com/AlonsoMarcosM/DAMN-TEAMSSN",
+  "repository": "alonsomarcosm99/DAMN-TEAMSSN",
+  "repository_url": "https://github.com/alonsomarcosm99/DAMN-TEAMSSN",
   "title": {"es": "Honeypot AWS DAMN-TEAMSSN", "en": "DAMN-TEAMSSN AWS Honeypot"},
   "summary": {
     "es": "Honeypot Cowrie reproducible con Terraform, análisis serverless y alertas.",
@@ -14,6 +14,6 @@
     "mode": "static-evidence",
     "source_branch": "main",
     "status": "live",
-    "url": "https://alonsomarcosm.github.io/DAMN-TEAMSSN/"
+    "url": "https://alonsomarcosm99.github.io/DAMN-TEAMSSN/"
   }
 }
