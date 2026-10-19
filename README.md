@@ -1,5 +1,9 @@
 # DAMN-TEAMSSN - Honeypot en AWS (documentacion completa)
 
+**En una frase:** Honeypot SSH (Cowrie) en EC2 desplegado entero como código con Terraform modular. Los logs se sincronizan a S3 cada 5 minutos, cada objeto nuevo dispara una Lambda en Python que los analiza contra umbrales y envía alertas por SNS, CloudWatch vigila la instancia con alarmas, la administración va por SSM sin abrir SSH real y cada entorno se levanta y se destruye con un solo comando.
+
+**In one sentence:** SSH honeypot (Cowrie) on EC2, fully provisioned as code with modular Terraform. Logs sync to S3 every 5 minutes, each new object triggers a Python Lambda that checks them against thresholds and sends SNS alerts, CloudWatch alarms watch the instance, administration goes through SSM without opening real SSH and each environment is created and destroyed with a single command.
+
 > **Despliegue público:** [Abrir despliegue](https://alonsomarcosm99.github.io/DAMN-TEAMSSN/)
 
 ![Terraform](https://img.shields.io/badge/Terraform-%E2%89%A5%201.5-844FBA?logo=terraform&logoColor=white)
